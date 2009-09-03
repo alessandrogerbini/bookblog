@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="982e1905-5a74-4a97-9a9b-80ea963f5f27" kpf_version="4" name="firstproject.kpf">
+<file id="6daf743b-a28c-4335-a1b0-42be822d9b81" idref="8343f442-516a-4af6-9b15-d8c2fe5b7997" name="base.html" url="base.html">
+</file>
+<file id="b3646377-dd2f-417e-85b4-946df6fdb3a7" idref="8343f442-516a-4af6-9b15-d8c2fe5b7997" name="blog.html" url="blog.html">
+</file>
+<folder id="8343f442-516a-4af6-9b15-d8c2fe5b7997" idref="982e1905-5a74-4a97-9a9b-80ea963f5f27" name="templates">
+</folder>
+<preference-set idref="982e1905-5a74-4a97-9a9b-80ea963f5f27">
+  <boolean id="import_live">1</boolean>
+</preference-set>
+</project>

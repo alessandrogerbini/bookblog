@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC “-//W3C//DTD XHTML Transitional//EN”
+“http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd”>
+<html xmlns=”http://www.w3.org/1999/xhtml” xml:lang=”en” lang=”en”>
+    <head>
+        <meta http-equiv=”Content-type” content=”text/html; charset=utf-8″ />
+        <title>Sandro's Blog</title>
+        <link rel=”stylesheet” href=”{{ MEDIA_URL }}css/style.css” type=”text/css” media=”screen,projection” />
+    </head>
+    <body>
+        <h1><a href=”/”>My Blog</a></h1>
+        {% block content %}{% endblock %}
+        {% block footer %}
+        <hr>
+        <p>Copyright Alessandro Gerbini 2009</p>
+        {% endblock %}
+    </body>
+</html>

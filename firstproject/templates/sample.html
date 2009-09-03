@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <title>Nothing to see here</title>
+</head>
+<body>
+{% ifnotequal year $none %}
+    {{ year }}
+{% endifnotequal %}
+{% ifnotequal month $none %}
+    &#47;{{ month }}
+{% endifnotequal %}
+{% ifnotequal day $none %}
+&#47;{{ day }}
+{% endifnotequal %}
+</body>
+</html>

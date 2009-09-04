@@ -1,17 +1,20 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html lang="en">
 <head>
-    <title>Nothing to see here</title>
+    <title>Test paramater capture</title>
 </head>
 <body>
-{% ifnotequal year $none %}
-    {{ year }}
-{% endifnotequal %}
-{% ifnotequal month $none %}
-    &#47;{{ month }}
-{% endifnotequal %}
-{% ifnotequal day $none %}
-&#47;{{ day }}
-{% endifnotequal %}
+{% comment %}
+this section will take the paramaters Year, Month, Day, and print a title accordingly
+something like, 'Year Archive: 2007', 'Month Archive: 2000/04' or 'Post from: 2006/03/9'
+{% endcomment %}
+
+{% if day %}
+Post from: {{ year }}&#47;{{ month }}&#47;{{ day }}
+{% else %}{% if month %}
+Month Archive: {{ year }}&#47;{{ month }}
+{% else %}
+Year Archive: {{ year }}
+{% endif %}{% endif %}
 </body>
 </html>
